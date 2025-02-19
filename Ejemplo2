@@ -1,0 +1,29 @@
+@startuml
+class Punto2D{
+-m_ejeX : double
+-m_ejeY : double
+
++Punto2D()
++Punto2D(_x: double,_y: double)
++getEjeX(): double
++setEjeX(_eje X: double): void
++getEjeY(): double
++setEjeY(_eje Y: double): void
+
+}
+
+class Círculo{
+-m_centro: Punto2D
+-m_radio: double
+
++Círculo()
++Círculo(_radio: double, _x: double, _y:double)
++Círculo(_radio: double, _centro: Punto2D)
++getCentro(): Punto2D
++setCentro(_centro: Punto2D) : void
++getRadio(): double
++setRadio(_radio: double): void
+
+
+}
+@enduml
