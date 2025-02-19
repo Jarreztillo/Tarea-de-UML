@@ -1,0 +1,20 @@
+@startuml
+class Temperatura{
+-m_gCelsius: double
+-m_gFahrenheit: double
+
++Temperatura()
++Temperatura(celsius: double)
++getGradosCelsius(): double
++setGradosCelsius(celsius: double):void
++getGradosFahrenheit(): double
++setGradosFahrenheit((celsius:double) * 9/5 +32):void
+
+
+}
+
+
+
+
+
+@enduml
